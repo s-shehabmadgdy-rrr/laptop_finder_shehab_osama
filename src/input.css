@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+@source "../*.html";
+@source "./js/*.js";
+
+@theme {
+  --color-performance-bg: #0b1730;
+  --color-performance-accent: #3b82f6;
+  --color-saver-bg: #f1f6ff;
+  --color-saver-accent: #2563eb;
+}
+
+/* Both color modes use the same components with different colors. */
+:root, [data-theme="saver"] {
+  --page: #f1f6ff;
+  --surface: #ffffff;
+  --surface-alt: #e8f0ff;
+  --ink: #142642;
+  --muted: #526780;
+  --border: #d9e5f5;
+  --accent: #2563eb;
+  --accent-ink: #ffffff;
+}
+[data-theme="performance"] {
+  --page: #0b1730;
+  --surface: #17294a;
+  --surface-alt: #23395d;
+  --ink: #f9fafb;
+  --muted: #cbdaf3;
+  --border: #39557b;
+  --accent: #3b82f6;
+  --accent-ink: #17294a;
+}
+
+@layer components {
+  .laptop-card { @apply rounded-2xl border overflow-hidden transition duration-200 hover:-translate-y-1 hover:shadow-xl; background: var(--surface); border-color: var(--border); }
+  .btn-action { @apply inline-flex items-center justify-center rounded-xl px-4 py-2.5 text-sm font-semibold transition duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 disabled:cursor-not-allowed disabled:opacity-50; background: var(--accent); color: var(--accent-ink); }
+  .btn-quiet { @apply inline-flex items-center justify-center rounded-xl border px-4 py-2.5 text-sm font-semibold transition duration-200 hover:opacity-80 focus-visible:outline-2; border-color: var(--border); background: var(--surface); color: var(--ink); }
+  .field { @apply w-full rounded-xl border px-3 py-2.5 text-sm focus:ring-2; background: var(--surface); border-color: var(--border); color: var(--ink); --tw-ring-color: var(--accent); }
+  .panel { @apply rounded-2xl border p-5 sm:p-6; background: var(--surface); border-color: var(--border); }
+  .subtle { color: var(--muted); }
+  .section-title { @apply text-2xl font-bold tracking-tight sm:text-3xl; }
+
+  /* Comparison table keeps photos small and allows horizontal scrolling on phones. */
+  .comparison-scroll { @apply w-full max-w-full overflow-x-auto rounded-2xl border; border-color: var(--border); background: var(--surface); }
+  .comparison-table { @apply w-full border-collapse text-left; min-width: 650px; table-layout: fixed; }
+  .comparison-table-wide { min-width: 900px; }
+  .comparison-corner { @apply sticky left-0 z-20 w-36 p-4 text-sm font-bold align-bottom; background: var(--surface-alt); border-bottom: 1px solid var(--border); }
+  .comparison-product { @apply w-52 p-3 text-left align-top; background: var(--surface); border-bottom: 1px solid var(--border); }
+  .comparison-product-link { @apply flex flex-col gap-1 rounded-lg focus-visible:outline-2; }
+  .comparison-photo { @apply h-28 w-full rounded-lg object-cover; }
+  .comparison-name { @apply mt-2 text-sm font-bold leading-snug; }
+  .comparison-brand { @apply text-xs font-normal; color: var(--muted); }
+  .comparison-label { @apply sticky left-0 z-10 w-36 p-4 text-sm font-semibold; background: var(--surface-alt); border-bottom: 1px solid var(--border); }
+  .comparison-value { @apply p-4 text-sm; border-bottom: 1px solid var(--border); }
+  .comparison-best { @apply ml-2 inline-block rounded-full px-2 py-0.5 text-xs font-bold; background: var(--accent); color: #fff; }
+
+}
+
+body { background: var(--page); color: var(--ink); }
+header, footer { background: var(--surface); border-color: var(--border); }
+a:focus-visible, button:focus-visible { outline-color: var(--accent); }
+.highlight-best { background: color-mix(in srgb, var(--accent) 18%, var(--surface)); color: var(--ink); font-weight: 800; }
