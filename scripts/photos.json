@@ -1,0 +1,170 @@
+[
+  {
+    "id": 1,
+    "name": "Acer Swift Go 14",
+    "file": "laptop-01.jpg",
+    "pexelsId": 6135922,
+    "photoPage": "https://www.pexels.com/photo/6135922/"
+  },
+  {
+    "id": 2,
+    "name": "ASUS Vivobook 15",
+    "file": "laptop-02.jpg",
+    "pexelsId": 27200831,
+    "photoPage": "https://www.pexels.com/photo/27200831/"
+  },
+  {
+    "id": 3,
+    "name": "Lenovo IdeaPad Slim 3",
+    "file": "laptop-03.jpg",
+    "pexelsId": 6958763,
+    "photoPage": "https://www.pexels.com/photo/6958763/"
+  },
+  {
+    "id": 4,
+    "name": "HP Pavilion x360",
+    "file": "laptop-04.jpg",
+    "pexelsId": 9930099,
+    "photoPage": "https://www.pexels.com/photo/9930099/"
+  },
+  {
+    "id": 5,
+    "name": "Dell Inspiron 14 2-in-1",
+    "file": "laptop-05.jpg",
+    "pexelsId": 12193430,
+    "photoPage": "https://www.pexels.com/photo/12193430/"
+  },
+  {
+    "id": 6,
+    "name": "Apple MacBook Air 13",
+    "file": "laptop-06.jpg",
+    "pexelsId": 20692999,
+    "photoPage": "https://www.pexels.com/photo/20692999/"
+  },
+  {
+    "id": 7,
+    "name": "ASUS ROG Zephyrus G14",
+    "file": "laptop-07.jpg",
+    "pexelsId": 23228196,
+    "photoPage": "https://www.pexels.com/photo/23228196/"
+  },
+  {
+    "id": 8,
+    "name": "Lenovo Legion 5",
+    "file": "laptop-08.jpg",
+    "pexelsId": 6372950,
+    "photoPage": "https://www.pexels.com/photo/6372950/"
+  },
+  {
+    "id": 9,
+    "name": "MSI Katana 15",
+    "file": "laptop-09.jpg",
+    "pexelsId": 293333,
+    "photoPage": "https://www.pexels.com/photo/293333/"
+  },
+  {
+    "id": 10,
+    "name": "Acer Nitro V 15",
+    "file": "laptop-10.jpg",
+    "pexelsId": 5588212,
+    "photoPage": "https://www.pexels.com/photo/5588212/"
+  },
+  {
+    "id": 11,
+    "name": "Dell XPS 13",
+    "file": "laptop-11.jpg",
+    "pexelsId": 21391574,
+    "photoPage": "https://www.pexels.com/photo/21391574/"
+  },
+  {
+    "id": 12,
+    "name": "HP Envy x360 14",
+    "file": "laptop-12.jpg",
+    "pexelsId": 12470762,
+    "photoPage": "https://www.pexels.com/photo/12470762/"
+  },
+  {
+    "id": 13,
+    "name": "Microsoft Surface Laptop 7",
+    "file": "laptop-13.jpg",
+    "pexelsId": 8534041,
+    "photoPage": "https://www.pexels.com/photo/8534041/"
+  },
+  {
+    "id": 14,
+    "name": "Lenovo Yoga 7i",
+    "file": "laptop-14.jpg",
+    "pexelsId": 6045735,
+    "photoPage": "https://www.pexels.com/photo/6045735/"
+  },
+  {
+    "id": 15,
+    "name": "ASUS ProArt P16",
+    "file": "laptop-15.jpg",
+    "pexelsId": 8524595,
+    "photoPage": "https://www.pexels.com/photo/8524595/"
+  },
+  {
+    "id": 16,
+    "name": "Apple MacBook Pro 14",
+    "file": "laptop-16.jpg",
+    "pexelsId": 5122177,
+    "photoPage": "https://www.pexels.com/photo/5122177/"
+  },
+  {
+    "id": 17,
+    "name": "Dell Precision 3581",
+    "file": "laptop-17.jpg",
+    "pexelsId": 5712527,
+    "photoPage": "https://www.pexels.com/photo/5712527/"
+  },
+  {
+    "id": 18,
+    "name": "HP ZBook Studio",
+    "file": "laptop-18.jpg",
+    "pexelsId": 1128240,
+    "photoPage": "https://www.pexels.com/photo/1128240/"
+  },
+  {
+    "id": 19,
+    "name": "Samsung Galaxy Book4",
+    "file": "laptop-19.jpg",
+    "pexelsId": 8512444,
+    "photoPage": "https://www.pexels.com/photo/8512444/"
+  },
+  {
+    "id": 20,
+    "name": "ASUS Chromebook Plus CX34",
+    "file": "laptop-20.jpg",
+    "pexelsId": 7180492,
+    "photoPage": "https://www.pexels.com/photo/7180492/"
+  },
+  {
+    "id": 21,
+    "name": "Acer Aspire 5",
+    "file": "laptop-21.jpg",
+    "pexelsId": 6045725,
+    "photoPage": "https://www.pexels.com/photo/6045725/"
+  },
+  {
+    "id": 22,
+    "name": "Lenovo LOQ 15",
+    "file": "laptop-22.jpg",
+    "pexelsId": 11045874,
+    "photoPage": "https://www.pexels.com/photo/11045874/"
+  },
+  {
+    "id": 23,
+    "name": "HP 15 Laptop",
+    "file": "laptop-23.jpg",
+    "pexelsId": 450035,
+    "photoPage": "https://www.pexels.com/photo/450035/"
+  },
+  {
+    "id": 24,
+    "name": "LG gram 16",
+    "file": "laptop-24.jpg",
+    "pexelsId": 19012059,
+    "photoPage": "https://www.pexels.com/photo/19012059/"
+  }
+]
